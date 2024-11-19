@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Projet Top 5 Animés 🎥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet React affiche les 5 animés les mieux notés grâce à l'API [Jikan](https://jikan.moe/), qui fournit des informations issues de MyAnimeList.
 
-## Available Scripts
+## 🚀 Fonctionnalités
 
-In the project directory, you can run:
+- **Chargement dynamique des données** : Les données sont récupérées via une requête API.
+- **Top 5 animés** : Seuls les 5 premiers animés sont affichés.
+- **Informations clés** :
+  - Titre
+  - Image
+  - Score
 
-### `npm start`
+## 🛠️ Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** : Librairie pour créer l'interface utilisateur.
+- **Axios** : Utilisé pour les appels API.
+- **CSS** : Personnalisation des styles via `App.css`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Pré-requis
 
-### `npm test`
+- [Node.js](https://nodejs.org/) (version 16 ou supérieure)
+- npm ou yarn installé
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation
 
-### `npm run build`
+1. Clonez ce dépôt :
+   ```bash
+   git clone <url-du-repo>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Points à personnaliser
+- Remplacez `<url-du-repo>` et `<nom-du-repo>` par les informations spécifiques à votre dépôt GitHub. 
+- Vous pouvez ajouter un lien vers un déploiement en ligne si vous hébergez le projet (par exemple avec Netlify ou Vercel).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Structures dans VsCode
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+src/
+├── App.css        # Styles de l'application
+├── App.js         # Composant principal
+├── index.js       # Point d'entrée de l'application
